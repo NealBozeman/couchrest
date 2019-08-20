@@ -27,8 +27,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.summary = %q{Lean and RESTful interface to CouchDB.}
 
-  s.add_dependency "httpclient", ["~> 2.8"]
-  s.add_dependency "multi_json", ["~> 1.7"]
+  s.add_dependency "httpclient"
+  s.add_dependency "multi_json"
   s.add_dependency "mime-types", [">= 1.15"]
 
   s.add_development_dependency "bundler", "~> 1.3"
